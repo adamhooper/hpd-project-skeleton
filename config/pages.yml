@@ -1,0 +1,10 @@
+# Each entry in this file corresponds to one or many endpoints.
+#
+# Refer to https://github.com/adamhooper/hpd-page-generator#page-specification
+# to understand what these entries do.
+- path: _root
+  model: index
+  template: index
+
+- path: _root/
+  redirect: _root

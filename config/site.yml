@@ -1,0 +1,5 @@
+# The baseHref is the root of all pages.
+# For instance, "/foo" will make all URLs start with "/foo".
+#
+# This baseHref will be the same on dev and production.
+baseHref: /2017/EDIT-site.href-TO-SET-SLUG

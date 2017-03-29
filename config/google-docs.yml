@@ -1,0 +1,13 @@
+# Where we'll write the JSON files from Google Docs.
+#
+# You'll add this JSON to the Git repository, and we'll generate pages from it.
+# When journalists edit and publish the Google Doc, that won't affect the
+# repository until a developer refreshes it.
+#
+# If the code path is "app/docs" and the slug is "index", the syntax tree will
+# go in "app/docs/index.json".
+basePath: data/google-docs
+
+docs:
+  - slug: index
+    googleId: '1EhcbcDKg5GyiJo8EvNmhkMMUb-vRrrAaaswsOzKTayk'

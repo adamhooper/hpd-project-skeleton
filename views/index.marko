@@ -1,0 +1,24 @@
+<!doctype html>
+html lang="en"
+  head
+    meta charset="utf-8"
+    title -- ${model.metadata.title}
+    meta name="viewport" content="width=device-width, initial-scale=1"
+    link rel="stylesheet" href="${assets.hrefTo('stylesheets/index.css')}"
+    -- $!{partial('_social-meta')}
+  body
+    -- $!{partial('_nav')}
+
+    article
+      -- $!{partial('_header')}
+
+      // If you're using a Google Doc, you should uncomment this:
+      // -- $!{model.render(input)}
+      // otherwise, write MarkoJS here.
+
+      p -- Lorem ipsum.
+
+    -- $!{partial('_footer')}
+
+    script src="${assets.hrefTo('javascripts/social.js')}"
+    script src="${assets.hrefTo('javascripts/stats.js')}"

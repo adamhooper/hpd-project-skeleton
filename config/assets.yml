@@ -1,0 +1,13 @@
+# Each entry adds zero or more assets that will be uploaded and that pages can
+# refer to.
+#
+# Refer to https://github.com/huffpostdata/hpd-asset-pipeline#usage
+
+- logic: digest
+  glob: images/**/*.{png,jpg,gif,svg,ico}
+
+- logic: digest
+  glob: javascripts/*.js
+
+- logic: scss
+  glob: stylesheets/index.scss

@@ -1,0 +1,11 @@
+$ var meta = model.metadata
+
+header
+  h1 -- ${meta.hed}
+  h2.dek -- ${meta.dek}
+
+  p.byline -- $!{meta.author_html}
+
+  p.date.date-published -- Published <time>${meta.date_published}</time>
+  if(meta.date_updated)
+    p.date.date-updated -- Updated <time>${meta.date_updated}</time>

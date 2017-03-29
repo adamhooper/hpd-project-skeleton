@@ -1,0 +1,24 @@
+{
+  "name": "FIXME-set-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generator/dev.js",
+  "scripts": {
+    "update-google-docs": "node generator/GoogleDocs.js",
+    "update-google-sheets": "node generator/GoogleSheets.js"
+  },
+  "author": "HuffPost Data <data@huffingtonpost.com>",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^1.0.4",
+    "hpd-asset-pipeline": "0.0.6",
+    "hpd-page-generator": "0.0.4",
+    "in-memory-website": "0.0.5",
+    "js-yaml": "^3.6.0"
+  },
+  "devDependencies": {
+    "chokidar": "^1.4.3",
+    "google-docs-markup": "^1.0.1",
+    "google-drive-console-download": "^1.2.0"
+  }
+}

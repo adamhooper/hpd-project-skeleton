@@ -1,0 +1,50 @@
+article>header:not(.specificity-hack) {
+  @include wide-width();
+
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-family: $nav-font-family;
+  position: relative;
+
+  p, h1, h2 {
+    // reset
+    padding: 0;
+    margin: 0 auto;
+    line-height: 1;
+  }
+
+  h1 {
+    font-family: $header-font-family;
+    font-size: 3rem;
+    line-height: 3.1rem;
+    margin-top: 2rem;
+  }
+
+  h2.dek {
+    font-family: $body-font-family;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 1.25;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+
+  .byline, .date {
+    margin-top: 1rem;
+  }
+
+  .byline {
+    font-size: 1rem;
+    line-height: 1.2;
+    color: $header-muted-color;
+  }
+
+  .date {
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: $header-muted-color;
+  }
+}
