@@ -7,7 +7,12 @@
   glob: images/**/*.{png,jpg,gif,svg,ico}
 
 - logic: digest
-  glob: javascripts/*.js
+  glob: javascripts/{stats,social}.js
 
 - logic: scss
   glob: stylesheets/index.scss
+
+# This is how you'd include a JavaScript file. It may require()
+# other JavaScript files.
+#- logic: javascript
+#  glob: javascripts/app.js
