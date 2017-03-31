@@ -20,7 +20,7 @@ class GoogleSheets {
   // You must have called downloadAll() to get data for this method.
   slugToArray(slug) {
     const tsv = this.slugToTsv(slug)
-    const array = csv_parse(tsv, { delimiter: '\t', columns: true })
+    const array = csv_parse(tsv, { delimiter: '\t', columns: true, quote: null })
     return array
   }
 
