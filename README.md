@@ -201,3 +201,7 @@ adhere to these guidelines:
 
 This code is copyright (c) 2017 The Huffington Post, released under the MIT license.
 See LICENSE.
+
+Exception: [Proxima Nova](https://typekit.com/fonts/proxima-nova) is _not_ a free font.
+If you're forking this project and you don't work for The Huffington Post, please either
+acquire a license or delete the Proxima Nova files in `assets/stylesheets/`.
